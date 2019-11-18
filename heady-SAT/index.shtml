@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -55,9 +56,9 @@
                         <li><a href="#custom-tab"><span>Custom Tab</span></a></li>
                     </ul>
                     <ul class="social-icons">
-                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-                        <li><i class="fa fa-pinterest" aria-hidden="true"></i></li>                        
+                        <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>                        
                     </ul> 
                 </aside>
                 <div id="content" class="pull-right">
