@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <title>Nudie</title>
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+        <!--google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap" rel="stylesheet">
+        <!-- <link href="css/plugins.css" type="text/css" rel="stylesheet"> -->
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/fontawesome.css" type="text/css" rel="stylesheet">
+        <link href="css/media.css" type="text/css" rel="stylesheet">
+        <script src="js/modernizr-2.6.2.min.js"></script>
+  </head>   
+    
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="logo pull-left"><a href="#"><img src="images/logo.png" alt=""></a></div>
+            <div class="main-menu pull-right">
+                <div class="nav-wrap pull-left">
+                    <a href="#" class="hamburger"><span></span><span></span></a>
+                    <ul class="nav">
+                        <li><a href="#" class="active"><span>bedroom</span></a></li>
+                        <li><a href="#"><span>living room</span></a></li>
+                        <li><a href="#"><span>office</span></a></li>
+                        <li><a href="#"><span>Kitchen</span></a></li>
+                        <li><a href="#"><span>Bathroom</span></a></li>
+                    </ul>
+                </div>
+                <ul class="header-icons pull-left">
+                    <li><a href=""><img src="images/icons/search.png" alt=""></a></li>
+                    <li><a href=""><img src="images/icons/heart.png" alt=""></a></li>
+                    <li><a href="" class="cart"><img src="images/icons/cart.png" alt=""><span class="no-of-items">2</span></a></li>
+                </ul>
+                <span class="clear"></span>
+            </div>
+            <span class="clear"></span>
+        </header>
+        <div class="main-content">
+            <ul class="breadcrum">
+                <li><a href="#"><img src="images/icons/home.png" alt="home-icon"></a></li>
+                <li><a href="#">catalog</a></li>
+                <li><a href="#">sofas</a></li>
+                <li class="active"><a href="#">beige nuide sofa</a></li>
+            </ul>
+            <div class="details-section">
+                <aside class="pull-left">
+                    <ul id="nav" class="side-menu">
+                        <li class="current" ><a href="#details"><span>Details</span></a></li>
+                        <li><a href="#description"><span>Description</span></a></li>
+                        <li><a href="#review"><span>Review</span></a></li>
+                        <li><a href="#custom-tab"><span>Custom Tab</span></a></li>
+                    </ul>
+                    <ul class="social-icons">
+                        <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                        <li><i class="fa fa-pinterest" aria-hidden="true"></i></li>                        
+                    </ul> 
+                </aside>
+                <div id="content" class="pull-right">
+                    <section id="details">   
+                        <div class="title"> details </div>
+                        <div class="details-block animated fadeInLeft">
+                            <figure class="pull-left animated fadeInLeft delay-0.6s">
+                                <img src="images/pro1.jpg" alt="">
+                            </figure>
+                            <div class="details-content pull-left">
+                                <h2>Nudie Extendable Sofa for 3 persons.</h2>
+                                <div class="user-rates">
+                                    <div>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star checked"></span>
+                                        <span class="fa fa-star"></span>
+                                    </div>
+                                    <span class="number-of-people">(23)</span>
+                                </div>
+                                <ul class="price-sec">
+                                    <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                    <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                                </ul>
+                                <ul class="product-details">
+                                    <li><strong>Assembly:</strong> Carpenter Assembly</li>
+                                    <li><strong>Warranty:</strong> 12 Months' Warrant</li>
+                                </ul>
+                                <ul class="policy-details">
+                                    <li><i><img src="images/icons/vehicle.png" alt=""></i><strong>same day dispatch</strong></li>
+                                    <li><i><img src="images/icons/refresh.png" alt=""></i><strong>easy - 30 day return policy</strong></li>
+                                </ul>
+                                <div class="product-color">
+                                    <h5>color</h5>
+                                    <ul>
+                                        <li>
+                                            <input type="radio" id="beige" name="color" value="beige">
+                                            <label for="beige">
+                                                <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="white" name="color" value="white" checked>
+                                            <label for="white">
+                                                <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                            </label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="black" name="color" value="black">
+                                            <label for="black">
+                                                <span><i class="fa fa-check" aria-hidden="true"></i></span>
+                                            </label>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="no-of-item">
+                                    <div class="no-count">
+                                        <button>-</button>
+                                        <input type="number" value="1">
+                                        <button>+</button>
+                                    </div>
+                                    <button type="submit" class="add-to-cart-btn">add to cart</button>
+                                </div>
+                            </div>
+                            <span class="clear"></span>
+                        </div>
+                    </section>  <!--details section ends here-->
+                    <section id="description"> 
+                        <div class="title description"> description </div>
+                        <figure class="pull-right animated fadeInLeft">
+                            <img src="images/pro2.jpg" alt="">
+                        </figure>
+                        <div class="description-text-wrap pull-left animated fadeInLeft delay-0.6s">
+                            <div class="description-heading">
+                                <h2>At vero eos et accusamus et iufto odio dignissimos.</h2>
+                            </div>
+                            <div class="description-text">
+                                <p>At vero eos et accusamus et ludo odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molesetias excepturi sint occaecati cupiditate non provident, simitique sunt in culpa qui officia deserunt mollitia animi, id eit laborum et dolorum fuga.</p>
+                                <p>Et harum quidem rerum facilis est et expedita diglinetio. Nam libero tempore, cum soluta nobis eset eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda eft, omnis dolor repellendus.</p>
+                            </div>
+                        </div>  
+                        <span class="clear"></span>
+                    </section><!--description ends here-->
+                    <section id="review">   
+                        <div class="title review">review</div>
+                        <figure class="animated fadeInLeft"> 
+                            <img src="images/pro3.jpg" alt="">
+                            <figcaption><a href="#" class="video-play-btn" data-animation="fadeInUp" data-animation-delay="800"></a></figcaption>
+                        </figure>
+                        <div class="review-text animated fadeInLeft delay-0.6s">
+                            <h3>At vero eos et accusamus et iufto odio dignissimos.</h3>
+                        </div>
+                    </section><!--review ends here-->
+                    <section id="custom-tab">
+                        <div class="title custom-tab">custom tab</div>
+                        <div class="accomation-sec">
+                            <h6>Suggested Accomodation</h6>
+                        </div>
+                        <div class="accomation-sec-img animated slideInLeft">
+                            <figure><img src="images/pro4.jpg" alt=""></figure>
+                            <a href="#" class="download-pdf animated slideInRight"><i class="fa fa-arrow-down" aria-hidden="true"></i>DOWNLOAD PDF</a>
+                        </div>
+                        <div class="accomation-small-img animated slideInLeft">
+                            <figure><img src="images/accomodation-pro.jpg" alt=""></figure>
+                        </div>
+                    </section> <!--custom-tab ends here-->
+                </div>
+                <span class="clear"></span> 
+            </div><!--details-section ends here-->
+        </div>
+        <section class="review-section">
+            <h4>23 reviews for nudie extendable sofa</h4>
+            <div class="user-rates">
+                <div>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star"></span>
+                </div>
+                <span class="number-of-people">4.31 (61 reviews)</span>
+            </div>
+            <ul>
+                <li>
+                    <div class="user-details">
+                        <figure><img src="images/user-img.png" alt=""/></figure>
+                        <div class="user-name">
+                            <strong>Johnathan Doe</strong>
+                            <span>August 28, 2016</span>
+                        </div>
+                    </div><!--user-details-->
+                    <div class="user-text">
+                        <strong>Excellent</strong>
+                        <div class="user-rates">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </i>
+                        <div>
+                            <textarea placeholder="Add Comment"></textarea>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="user-details">
+                        <figure><img src="images/user-img.png" alt=""/></figure>
+                        <div class="user-name">
+                            <strong>Johnathan Doe2</strong>
+                            <span>August 28, 2016</span>
+                        </div>
+                    </div><!--user-details-->
+                    <div class="user-text">
+                        <strong>Excellent</strong>
+                        <div class="user-rates">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </i>
+                        <div>
+                            <textarea placeholder="Add Comment"></textarea>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="user-details">
+                        <figure><img src="images/user-img.png" alt=""/></figure>
+                        <div class="user-name">
+                            <strong>Johnathan Doe3</strong>
+                            <span>August 28, 2016</span>
+                        </div>
+                    </div><!--user-details-->
+                    <div class="user-text">
+                        <strong>Excellent</strong>
+                        <div class="user-rates">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </i>
+                        <div>
+                            <textarea placeholder="Add Comment"></textarea>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="user-details">
+                        <figure><img src="images/user-img.png" alt=""/></figure>
+                        <div class="user-name">
+                            <strong>Johnathan Doe4</strong>
+                            <span>August 28, 2016</span>
+                        </div>
+                    </div><!--user-details-->
+                    <div class="user-text">
+                        <strong>Excellent</strong>
+                        <div class="user-rates">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </i>
+                        <div>
+                            <textarea placeholder="Add Comment"></textarea>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="user-details">
+                        <figure><img src="images/user-img.png" alt=""/></figure>
+                        <div class="user-name">
+                            <strong>Johnathan Doe5</strong>
+                            <span>August 28, 2016</span>
+                        </div>
+                    </div><!--user-details-->
+                    <div class="user-text">
+                        <strong>Excellent</strong>
+                        <div class="user-rates">
+                            <div>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+                        </div>
+                        <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </i>
+                        <div>
+                            <textarea placeholder="Add Comment"></textarea>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="loadmore-wrap"><a href="" id="loadmore">load more(21)</a></div>
+        </section>
+        <div class="product-list">
+            <h4>Related produdis</h4>
+            <ul>
+                <li>
+                    <a href="#">
+                        <figure><img src="images/related-product1.png" alt=""></figure>
+                        <div>
+                            <strong>Bamboo fiber gobo</strong>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure><img src="images/related-product2.png" alt=""></figure>
+                        <div>
+                            <strong>Pearly white gold</strong>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure><img src="images/related-product3.png" alt=""></figure>
+                        <div>
+                            <strong>Oled ringlight</strong>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure><img src="images/related-product4.png" alt=""></figure>
+                        <div>
+                            <strong>Bamboo fiber gobo</strong>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure><img src="images/related-product5.png" alt=""></figure>
+                        <div>
+                            <strong>Pearly white gold</strong>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <figure><img src="images/related-product3.png" alt=""></figure>
+                        <div>
+                            <strong>Oled ringlight</strong>
+                            <ul class="price-sec">
+                                <li class="old-price"><i class="fa fa-usd" aria-hidden="true"></i>169</li>
+                                <li class="new-price"><i class="fa fa-usd" aria-hidden="true"></i>149</li> 
+                            </ul>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <footer>
+            <div class="payment-option">
+                <ul>
+                    <li><a href="javascript:void(0)"><img src="images/skirll.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/paypal.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/american-express.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/master-card.png" alt=""/></a></li>
+                    <li><a href="#"><img src="images/visa.png" alt=""/></a></li>
+                </ul>
+            </div>
+            <div class="newsletter"><a href="#">grab our newsletter</a></div>
+            <div class="bottom-footer">
+                <div class="footer-logo"><a href="#"><img src="images/footer-logo.png" alt=""></a></div>
+                <ul class="footer-nav nav">
+                    <li><a href="javascript:void(0)" class="active"><span>BEDROOM</span></a></li>
+                    <li><a href="javascript:void(0)"><span>LIVING ROOM</span></a></li>
+                    <li><a href="javascript:void(0)"><span>OFFICE</span></a></li>
+                    <li><a href="javascript:void(0)"><span>Kitchen</span></a></li>
+                    <li><a href="javascript:void(0)"><span>Bathroom</span></a></li>
+                </ul>
+                <ul class="footer-social-icon">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                </ul>
+                <span class="clear"></span>
+            </div>
+            <div class="copy-right">
+                <p>2017 &copy; Alpha Store</p>
+            </div>
+        </footer>
+    </div> <!--wrapper-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/js-plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

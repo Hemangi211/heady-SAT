@@ -1,0 +1,110 @@
+@media (max-width:1200px){
+    header {padding: 28px 25px;}
+    #content {width: 73%;position: relative;z-index: 2;}
+    .details-content {padding: 0;width: 55%;}
+    .details-content h2 {font-size: 27px;line-height: 30px;}
+    .product-list>ul>li strong {height: 50px;}
+    .product-list>ul>li figure {width: 50%;margin: 0 auto;}
+    .product-list>ul>li figure img{width: 100%;}
+    .price-sec li {font-size: 15px;}
+    .newsletter {margin: 0 auto 45px;}
+    footer {padding: 20px 0 10px 20px;    margin-top: 55px;}
+    .bottom-footer {padding: 30px 0;}
+    .footer-logo {top: 30%;}
+    .accomation-sec{transform: none;top: -20px;left: 0;width: auto;}
+    .title {display: none;}
+}
+
+@media (max-width:850px){
+    .policy-details li{width: 100%;margin-bottom: 10px;}
+    .description-text-wrap {padding-right: 20px;}
+    .description-heading h2 {font-size: 20px;line-height: 28px;}
+    .description-heading{padding: 20px 20px 20px 0;width: calc(100% + 210px);}
+    .review-text h3 {line-height: 28px;font-size: 21px;}
+    .review-text { padding: 15px 15px 15px 0; width: calc(25% + 170px);}
+    #review {margin-top: 40px;}
+    #review figcaption {width: 25px;height: 25px;}
+    .video-play-btn:before {width: 15px;height: 15px;margin-top: -8px;margin-left: -7px;}
+    .video-play-btn:after {font-size: 15px;}
+    #custom-tab {margin-top: 70px;}
+    .accomation-small-img {width: 260px;}
+    .download-pdf {padding: 10px;font-size: 12px;}
+    .download-pdf i{width: 24px;height: 24px;line-height: 23px;}
+    
+    .product-list {margin-top: 70px;}
+    .product-list ul {margin-top: 25px;}
+    footer {margin-top: 75px;}
+}
+
+@media (max-width:767px){
+    .copy-right,.payment-option {display: block;}
+    .wrapper {padding-left: 0;}
+    header {padding: 20px 10px;    position: relative;}
+    .logo {float: none;position: absolute;left: 0;right: 0;text-align: center;margin: 0 auto;width: 6%;top: 50%;transform: translateY(-50%);}
+    .nav {display: none;position: absolute;background: #fff;width: 100%;top: 60px;left: 0;right: 0;text-align: center;z-index: 3;}
+    .open-menu.hamburger span {transform: rotate(45deg);}
+    .open-menu.hamburger span:nth-child(2) {transform: rotate(-45deg);top: 0;position: absolute;}
+    .nav-wrap.open-menu, .main-menu {float: none;}
+    .nav li a:after {height: 3px;bottom: 6px;}
+    ul.nav > li {display: block;}
+    .header-icons.pull-left {float: right;}
+    .hamburger{width: 25px;height: 25px;display: block;position: absolute;left: 10px;top: 15px;}
+    .hamburger span {display: block;width: 100%;height: 4px;background: #000;margin: 6px 0;border-radius: 3px;transition: all ease 0.5s;}
+    .breadcrum {display: none;}
+    .details-section aside {float: none;width: 100%;text-align: center;padding:0;margin-bottom: 40px;z-index: 10;}
+    .side-menu {display: table;width: 100%;border-top: 1px solid #e5e5e5;}
+    .side-menu li a:after {display: none;}
+    .side-menu li {margin: 0;display: table-cell;text-align: center;padding: 15px 0;background: #fff;}
+    .side-menu li.current {background: #fcd53c;}
+    .social-icons {display: none;}
+    #content {width: 100%;}
+    #details {padding: 20px;}
+    .details-block figure {float: none;left: 0;width: 100%;top: -20px;}
+    .details-block {padding: 0 20px 20px 20px;}
+    .details-content{width: 100%;padding: 0 15px;}
+    .policy-details li {width: 49%;}
+    #description {padding: 0px 20px;margin: 0 20px;background: #fff;}
+    .description-heading {width: 100%;    background: #fff;}
+    .description-text-wrap{width: 100%;padding: 0;}
+    #description figure {float: none;width: 100%;}
+    .review-text {position: relative;width: auto;padding: 15px;margin: 0 20px;background: #fff;}
+    #review figcaption {width: 55px;height: 55px;}
+    .video-play-btn:before {width: 35px;height: 35px;margin-top: -18px;margin-left: -18px;}
+    .download-pdf {top: 0;bottom: auto;}
+    .accomation-sec{transform: none;top: -20px;left: 0;width: auto;}
+    .product-list>ul>li {display: inline-block;width: 49%;margin-bottom: 10px;}
+    .product-list>ul>li figure {height: 250px;}
+    .product-list ul {margin: 0;text-align: center;}
+    .product-list h4 {margin-left: 20px;}
+    footer {padding: 20px 0 10px 0px;}
+    .payment-option ul{text-align: center;}
+    .payment-option li {display: inline-block;margin:0 10px;}
+    .newsletter {display: none;}
+    .footer-nav {display: block;width: 100%;text-align: center;margin-top: 20px;}
+    .footer-logo {position: relative;}
+    .footer-social-icon {width: 100%;text-align: center;margin-top: 40px;}
+    .payment-option {padding: 20px 0;}
+    ul.footer-nav > li{padding-right: 0;}   
+    .footer-social-icon li:last-child {padding-right: 0;}
+    .review-section {display:block;margin: 50px 20px;}
+    .review-section ul li {display: none;}
+    .review-section h4 {font-size: 28px;color: #000;font-weight: 700;line-height: 32px;    margin-bottom: 10px;text-transform: capitalize;}
+    #loadmore{text-align: center;text-transform: capitalize;font-weight: 600;text-decoration: underline;text-decoration-color: #ffd241;color: #000;display: block;}
+    .user-name strong{display: block;font-size: 12px;}
+    .user-name span {display: block;color: #b0b0b0;font-size: 11px;}
+    .user-text {margin-top:15px;}
+    .user-text strong {display: block;margin-bottom: 4px;}
+    .user-text i{color: #b0b0b0;padding: 10px 0;display: block;font-size: 12px;line-height: 14px;}
+    .user-text textarea {width: 100%;background: none;padding: 10px;}
+    .user-text textarea::-webkit-input-placeholder {color:#000;text-decoration: underline;text-decoration-color: #ffd241;font-weight: 600;font-size: 16px;}
+    .user-text textarea:focus::-webkit-input-placeholder {opacity: 0;}
+    .user-text .user-rates {margin-bottom: 20px;}
+    .user-details figure{display: inline-block;width: 6%;vertical-align: middle;}
+    .user-details figure img {width: 35px;height: 35px;border-radius: 50%;}
+    .user-name {display: inline-block;width: 20%;vertical-align: middle;}
+    .loadmore-wrap {position: relative;}
+/*    .loadmore-wrap:before{content: "";box-shadow: 0px -9px 8px 6px #fff;position: absolute;width: 100%;top: -150px;height: 150px;background: rgba(255,255,255,0.5);}*/
+    .description-text {background: none;}
+    
+    
+}
